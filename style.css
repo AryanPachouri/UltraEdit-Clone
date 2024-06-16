@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .right ul {
+    display: flex;
+    gap: 34px;
+  }
+  .right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .right ul li span{
+    padding: 0 5px;
+  }
+  .coment{
+    font-size: 48px;
+    font-family:sans-serif;
+    margin: 100px;  
+    gap: 20px;
+    font-weight: 100;
+  }
+  .coment span{
+    padding-left: 20px;
+  }
+  .content{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    vertical-align: baseline;
+    width: 960px;
+  }
+  .button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 500;
+    background-color: #00b6d1;
+    padding: 15px;
+    margin: 40px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .mid{
+    display: flex;
+    justify-content: center;
+  }
+  .down{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .down h2{
+    padding: 20px 20px;
+  }
+  .down span{
+    padding: 25px 0px;
+  }
+  .left{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin: auto;
+  }
+  .mid .button:hover{
+    background-color: #02a7c0;
+  }
+  .card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: center;
+    max-width: 53vw;
+    margin: 30px auto;
+    
+  }
+  .item{
+    background-color:#f9f9f9;
+    text-align: center;
+  }
+  .cardb{
+    background-color: #5cb85c;
+    width: 50%;
+    border-radius: 5px;
+    color: white;
+    padding: 10px ;
+    margin: 0 auto 10px;
+  }
+  .item h2{
+    margin-top: 20px;
+    padding-bottom: 64px;
+  }
+  @media screen and (max-width:1024px){
+    .card{
+        grid-template-columns: 1fr;
+    }
+  }
+  .email{
+    background-color: #272525;
+    display: grid;
+    color: white;
+    height: 742px;
+    grid-template-areas: "join subscribe"
+                          "des des";
+    align-items: center;
+    justify-items: center;
+  }
+  .email .item1{
+    grid-area: join;
+    justify-self: flex-end;
+    text-align: center;
+  }
+  .email .item2{
+    grid-area: subscribe;
+    display: flex;
+    justify-self: flex-start;
+  }
+  .email .item3{
+    grid-area: des;
+    width: 900px;
+  }
+  .lspace{
+    line-height: 50px;
+  }
+  .item3 h3{
+    margin: 20px 0px;
+  }
+  .subs{
+    background-color: white;
+    max-width: 345px;
+    color: #00b6d1;
+    text-align: center;
+    border-radius: 12px;
+    padding: 35px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+
+  }
+  .subs span{
+    color: black;
+    
+  }
+  .subs h2{
+    padding-bottom: 45px;
+    font-weight: lighter;
+  }
+  .subs input{
+    height: 60px;
+    margin-top: 20px;
+    width: 330px;
+    margin: 0;
+    border-radius: 7px;
+  }
+  .subs .button{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .news p{
+    width: 420px;
+    text-align: center;
+  }
+  .last{
+    width: 60vw;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) 200px;
+    column-gap: 20px;
+  }
+  .it{
+    display: flex;
+    flex-direction: column;
+  }
+  .it p{
+    font-weight: 100;
+    font-size: 15px;
+  }
+  .it h4{
+    padding:70px 0 30px 0 ;
+  }
+
+  .it4 .button{
+    width: 200px;
+    margin-left: 0; 
+  }
+
+  .it4 input{
+      height: 30px;
+      padding-left: 10px;
+      width: 330px;
+      margin: 20px 0 0 0;
+      border-radius: 10px;
+      width: 200px;
+  }
+  .contact{
+    width: 55vw;
+    margin: 40px auto;
+    display: grid;
+    grid-template-areas: "img link"
+                          "copyright copyright";
+  }
+  .contact p{
+    font-size: 13px;
+    padding-top: 20px;
+  }
+  
+  .contact img{
+    grid-area: img;
+  }
+
+  .contact p{
+    grid-area: copyright;
+  }
+  .contact .social{
+    grid-area: link;
+  }
+  .social{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+
